@@ -1,0 +1,22 @@
+{
+    "name": "sponsor/portal",
+    "description": "For biodrop",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "autoload": {
+        "psr-4": {
+            "Sponsor\\Portal\\": "includes/"
+        },
+        "files": [
+            "includes/functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Hasan Tareq",
+            "email": "hsntareq@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
